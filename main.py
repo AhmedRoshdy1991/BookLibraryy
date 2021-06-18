@@ -73,7 +73,7 @@ if __name__ == '__main__':
             Book.viewAllBooks()
 
         if input1 == '2':
-            bookInfo= []
+            bookInfo = []
             print('Title: ')
             bookInfo.append(input())
             print('Author :')
@@ -95,13 +95,13 @@ if __name__ == '__main__':
             bookDescription = input()
             Book.editBook(bookId,bookTitle,bookAuthor,bookDescription)
 
-            if input1 == '4':
+        if input1 == '4':
                 print('Type in one or more keywords to search for')
                 searchvlaue = input()
                 Book.searchForBook(searchvlaue)
 
-            if input1 == '5':
-                sys.exit
+        if input1 == '5':
+              sys.exit()
 
 
 
